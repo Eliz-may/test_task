@@ -1,0 +1,91 @@
+INSERT INTO Person (ID, FIO, DateOfBirth, City, email)
+VALUES (1, 'Майстрова Елизавета Андреевна', '01.09.1999', 'Минск', 'elizavetamaistrava@yandex.ru');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1002, '(29)1781019');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1014, '(25)1119292');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (1, 1002);
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (1, 1014);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City, email)
+VALUES (2, 'Смирнов Кирилл Александрович', '20.04.1990', 'Минск', 'smirnov@gmail.com');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1003, '(29)7568037');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (2, 1003);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City)
+VALUES (3, 'Иванова Ольга Михайловна', '15.07.1995', 'Брест');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1009, '(29)3345447');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1012, '(29)1558584');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (3, 1009);
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (3, 1012);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, email)
+VALUES (4, 'Котова Елена Ивановна', '23.03.1989', 'kotova89@mail.ru');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1013, '(29)7323223');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1015, '(44)6954393');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (4, 1013);
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (4, 1015);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City, email)
+VALUES (5, 'Петров Петр Петрович', '07.02.2000', 'Витебск', 'petrpetr@tut.by');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1004, '(25)3312312');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (5, 1004);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City, email)
+VALUES (6, 'Сом Олег Иванович', '04.04.1998', 'Гродно', 'som98@yandex.ru');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1005, '(29)1801921');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1010, '(44)7552639');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (6, 1005);
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (6, 1010);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City, email)
+VALUES (7, 'Соболев Илья Андреевич', '02.02.1995', 'Минск', 'sobolevI95@gmail.com');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1006, '(29)6542010');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (7, 1006);
+
+INSERT INTO Person (ID, FIO, DateOfBirth, email)
+VALUES (8, 'Кот Елена Геннадьевна', '10.03.1994', 'kotElena94@gmail.com');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1007, '(44)7443606');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1011, '(44)5490902');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (8, 1007);
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (8, 1011);
+
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City)
+VALUES (9, 'Минский Максим Анатольевич', '12.11.1998', 'Минск');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1001, '(29)1543405');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (9, 1001);
+
+
+INSERT INTO Person (ID, FIO, DateOfBirth, City)
+VALUES (10, 'Сидоров Алексей Алексеевич', '29.05.1984', 'Гомель');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1008, '(25)1822324');
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (10, 1008);

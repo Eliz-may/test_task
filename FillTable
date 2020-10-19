@@ -1,0 +1,2 @@
+INSERT INTO Person_Number (person_id, number_id)
+VALUES (1, 1002)

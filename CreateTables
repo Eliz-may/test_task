@@ -1,0 +1,17 @@
+CREATE TABLE Person (
+ID INTEGER NOT NULL PRIMARY KEY,
+FIO TEXT(50) NOT NULL,
+DateOfBirth TEXT(10) NOT NULL,
+City TEXT (15),
+email TEXT (30) 
+);
+CREATE TABLE PhoneNumber (
+ID INTEGER NOT NULL PRIMARY KEY,
+Number TEXT (15) NOT NULL
+);
+CREATE TABLE Person_Number (
+    person_id INTEGER NOT NULL,
+    number_id INTEGER NOT NULL,
+    FOREIGN KEY (person_id) REFERENCES Person (ID),
+    FOREIGN KEY (number_id) REFERENCES PhoneNumber (ID)
+)

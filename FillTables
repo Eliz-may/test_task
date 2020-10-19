@@ -1,0 +1,4 @@
+INSERT INTO Person (ID, FIO, DateOfBirth, City, email)
+VALUES (1, 'Майстрова Елизавета Андреевна', '01.09.1999', 'Минск', 'elizavetamaistrava@yandex.ru');
+INSERT INTO PhoneNumber (ID, Number)
+VALUES (1002, '(29)1781019');
